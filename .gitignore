@@ -179,3 +179,22 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+
+# Secret files
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Generated audio
+voices/
+voices2/
+
+# Personal notes
+doct.txt
+mybot.text
+
